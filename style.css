@@ -1,0 +1,108 @@
+
+
+/* Landscape image for screens wider than 600px */
+html, body {
+    height: 100%;
+    background-color: #f3b5cb;
+}  
+
+.main_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#randomString {
+    font-size: 26px;
+}
+
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: center;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+
+
+#randomString2 {
+    color: aliceblue;
+    opacity: 40%;
+    font-size: 40vh;
+    text-align: left;
+    position: fixed
+}
+
+#randomString3 {
+    color: aliceblue;
+    opacity: 40%;
+    font-size: 50vh;
+    text-align: center;
+    position: fixed;
+}
+
+#randomString4 {
+    color: aliceblue;
+    opacity: 40%;
+    font-size: 1vh;
+    text-align: right;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+}
+
+#randomString5 {
+    color: aliceblue;
+    opacity: 40%;
+    font-size: 4.5vh;
+    text-align: left;
+    position: fixed;
+    left: 5%;
+}
+
+#randomString6 {
+    color: aliceblue;
+    opacity: 40%;
+    font-size: 20vh;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 10%
+}
+
+#randomString7 {
+    color: aliceblue;
+    opacity: 40%;
+    font-size: 3vh;
+    text-align: right;
+    position: fixed;
+    top: 10%;
+    left: 60%
+}
